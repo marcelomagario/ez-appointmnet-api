@@ -102,6 +102,16 @@ Create a `.env` file based on the variables below:
 | --- | --- | --- |
 | `PORT` | API HTTP port | `3000` |
 | `DATABASE_URL` | PostgreSQL connection string | `postgres://postgres:postgres@localhost:5432/ez_appointment` |
+| `DEFAULT_ADMIN_EMAIL` (optional) | Seed email for default admin | `admin@ez-appointment.com` |
+| `DEFAULT_ADMIN_PASSWORD` (optional) | Seed password for default admin | `ChangeMe123!` |
+| `DEFAULT_ADMIN_NAME` (optional) | Display name for default admin | `Administrator` |
+
+---
+
+## 🛠️ Development Scripts
+
+- `npm run migrate:run` — apply pending database migrations.  
+- `npm run seed:default-admin` — create the default admin if it does not exist.
 
 ---
 
