@@ -94,6 +94,17 @@ This project is a full-stack scheduling system that allows **clients** to book a
 
 ---
 
+## ⚙️ Environment
+
+Create a `.env` file based on the variables below:
+
+| Variable | Description | Example |
+| --- | --- | --- |
+| `PORT` | API HTTP port | `3000` |
+| `DATABASE_URL` | PostgreSQL connection string | `postgres://postgres:postgres@localhost:5432/ez_appointment` |
+
+---
+
 ### 🧠 Author
 Developed by **Marcelo Yukio Magario (Tel)**  
 **Backend Developer – Node.js | TypeScript | AWS Certified Cloud Practitioner**
